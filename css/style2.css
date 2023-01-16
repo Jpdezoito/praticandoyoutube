@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Fundo do esquema */
+
+.Fundo {
+    background-image: linear-gradient(45deg, rgb(150, 23, 23), rgb(8, 7, 17));
+    height: 100vw;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+/* Calculadora */
+
+.calculadora {
+    position: absolute;
+    background-color: black;
+    background-color: rgba(0,0,0,0.5);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+/* Botão */
+.botao {    
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: white;
+    margin: 3px;
+}
+
+.botao:hover {
+    background-color: black;
+}
+
+.botao-1 {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: white;
+    height: 106px;
+    margin: 3px;
+}
+
+.botao-2 {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(31,31,31);
+    border: none;
+    color: white;
+    width: 106px;
+    margin: 3px;
+}
+.botao-1:hover {
+    background-color: black;
+}
+.botao-2:hover {
+    background-color: black;
+   
+}
+
+/* Resultado */
+#resultado {
+    width: 207px;
+    background-color: white;
+    height: 30px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+    padding: 5px;
+}

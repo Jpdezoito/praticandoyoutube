@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.h1-1 {
+    color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 70px;
+}
+.h1-1:hover {
+    color: black;
+    text-shadow: 0px 0px 5px chartreuse;
+}
+.h1-1:active{
+    color: blue;       
+    text-shadow: 0px 0px 10px aqua;
+}
+.calculadora {     
+    background-color: black;
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+   
+}
+.calculadora h1 {
+    color: beige;
+}
+.Fundo{   
+    background-image: linear-gradient(45deg, red, black);
+}
+.h1-calculadora {
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 0px 0px 4px rgb(76, 80, 80);
+}
+button:hover {
+    background-color: bisque;
+    color: black;
+}
+button:active {
+    background-color: black;
+    color: aliceblue;
+}
